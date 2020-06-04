@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Toutes nos annonces{% endblock %}
+
+{% block body %}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="card col-4" style="width: 18rem;">
+            <img src="https://place-hold.it/800x400" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Annonce 1</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit corrupti earum dolore, sed, impedit dolorum consequuntur, perferendis vitae enim placeat tempore natus? Nesciunt amet voluptates libero saepe quasi, sunt ipsam!</p>
+                <a href="{{ path("annonce") }}" class="btn btn-primary">Afficher l'annonce</a>
+            </div>
+          </div>
+          <div class="card col-4" style="width: 18rem;">
+            <img src="https://place-hold.it/800x400" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Annonce 2</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur architecto veniam quaerat, distinctio maxime doloribus.</p>
+                <a href="{{ path("annonce") }}" class="btn btn-primary">Afficher l'annonce</a>
+            </div>
+          </div>
+          <div class="card col-4" style="width: 18rem;">
+            <img src="https://place-hold.it/800x400" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Annonce 3</h5>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vero impedit eligendi ipsam, corporis sunt magnam fugiat animi beatae labore iure!</p>
+                <a href="{{ path("annonce") }}" class="btn btn-primary">Afficher l'annonce</a>
+            </div>
+          </div>
+    </div>
+</div>
+{% endblock %}
